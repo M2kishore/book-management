@@ -14,6 +14,6 @@ public class SimpleController {
     public String homePage(Model model) {
         System.out.println("qwerty");
         model.addAttribute("appName", appName);
-        return "home";
+        return "index";
     }
 }
