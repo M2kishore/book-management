@@ -33,7 +33,7 @@ public class SimpleController {
 
     @PostMapping("/")
     public String checkCredentials() {
-        if(){
+        if(true){
             return "Book";
         }else{
             return "loginError";
